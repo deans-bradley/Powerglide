@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerGlide Motor Oil</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: #121212;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #1c1c1c;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e63946;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #e63946;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .product {
+            text-align: center;
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c1c1c;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #e63946;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PowerGlide</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Unleash Performance</h1>
+            <p>Premium Motor Oil for Every Journey</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="product">
+            <img src="product1.jpg" alt="High-Performance Oil">
+            <h3>High-Performance Oil</h3>
+            <p>Engineered for maximum efficiency.</p>
+            <button>View More</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Eco-Friendly Oil">
+            <h3>Eco-Friendly Oil</h3>
+            <p>Designed with the environment in mind.</p>
+            <button>View More</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Heavy-Duty Oil">
+            <h3>Heavy-Duty Oil</h3>
+            <p>Perfect for high-performance engines.</p>
+            <button>View More</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PowerGlide. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for animations
+        document.addEventListener("DOMContentLoaded", () => {
+            const heroText = document.querySelector(".hero-text");
+            heroText.style.opacity = 0;
+            heroText.style.transform = "translateY(-50px)";
+            
+            setTimeout(() => {
+                heroText.style.transition = "all 1s ease";
+                heroText.style.opacity = 1;
+                heroText.style.transform = "translateY(0)";
+            }, 200);
+        });
+    </script>
+</body>
+</html>

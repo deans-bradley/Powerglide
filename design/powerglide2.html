@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerGlide Motor Oil</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: linear-gradient(180deg, #1a1a1a, #333);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, red, yellow);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        header .logo h1 {
+            font-size: 1.8rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: black;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            background: url('hero-bg.jpg') no-repeat center/cover;
+            color: white;
+            box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.6);
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            line-height: 1.6;
+        }
+
+        .explore-btn {
+            background: linear-gradient(90deg, yellow, orange);
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            color: black;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 2rem;
+        }
+
+        .explore-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(255, 165, 0, 0.5);
+        }
+
+        /* Products Section */
+        #products {
+            padding: 4rem 2rem;
+            background: #202020;
+        }
+
+        #products h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            text-align: center;
+            padding: 1.5rem;
+            background: linear-gradient(180deg, #333, #444);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .product-card h3 {
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .product-card p {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        /* About Section */
+        #about {
+            padding: 4rem 2rem;
+            background: linear-gradient(180deg, #444, #333);
+        }
+
+        #about h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+            text-align: center;
+            color: #ddd;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 4rem 2rem;
+            background: linear-gradient(180deg, #333, #444);
+        }
+
+        #contact h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            max-width: 400px;
+            margin: 0 auto;
+            background: #222;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        form input, form textarea {
+            padding: 0.8rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            background: #444;
+            color: #fff;
+        }
+
+        form button {
+            background: blue;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        form button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 255, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: black;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const exploreBtn = document.querySelector('.explore-btn');
+            exploreBtn.addEventListener('click', () => {
+                document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>PowerGlide</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Your Engine's Best Friend</h2>
+        <p>PowerGlide offers premium motor oil solutions to keep your engines running smoothly and efficiently.</p>
+        <button class="explore-btn">Learn More</button>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="oil1.jpg" alt="Product 1">
+                <h3>PowerGlide Synthetic 5W-30</h3>
+                <p>High-performance motor oil for modern engines.</p>
+            </div>
+            <div class="product-card">
+                <img src="oil2.jpg" alt="Product 2">
+                <h3>PowerGlide Diesel 10W-40</h3>
+                <p>Designed for heavy-duty diesel engines.</p>
+            </div>
+            <div class="product-card">
+                <img src="oil3.jpg" alt="Product 3">
+                <h3>PowerGlide Classic 20W-50</h3>
+                <p>Perfect for classic cars and older engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>PowerGlide has been delivering high-quality motor oils for over 20 years. We pride ourselves on innovation and reliability, ensuring that your vehicles and machinery operate at peak performance.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PowerGlide Motor Oil. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerGlide - Home</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: url('resources/background2.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: rgba(0, 0, 0, 0.85); /* Sleek dark header */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        header .logo img {
+            width: 120px;
+            height: auto;
+        }
+
+        header .logo h1 {
+            font-size: 2.5rem;
+            color: #f4d03f; /* Gold-like accent color */
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            color: #f4d03f;
+        }
+
+        /* Hero Section */
+        #hero {
+            text-align: center;
+            padding: 10rem 2rem;
+            background: rgba(0, 0, 0, 0.6); /* Subtle overlay for readability */
+        }
+
+        #hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            color: #f4d03f;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        #hero p {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto 2rem;
+            color: #f1f1f1;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        #hero button {
+            padding: 1rem 2.5rem;
+            font-size: 1.3rem;
+            background: linear-gradient(90deg, red, yellow);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #hero button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 15px rgba(255, 0, 0, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.85);
+            color: white;
+            font-size: 1rem;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        footer p a {
+            color: #f4d03f;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="resources/logo.jpg" alt="PowerGlide Logo">
+            <h1>PowerGlide</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Unleash the Power</h1>
+        <p>PowerGlide motor oils are engineered for ultimate performance and protection. Whether you're on the racetrack or the highway, trust PowerGlide to keep your engine running at its peak.</p>
+        <button onclick="window.location.href='products.html'">Discover Our Products</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PowerGlide Motor Oil. All Rights Reserved. | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>

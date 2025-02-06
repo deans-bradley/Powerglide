@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerGlide Motor Oil</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: url('resources/background2.jpg') no-repeat center center/cover;
+      color: #fff;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    header nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    header .header-buttons button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    header .header-buttons .login {
+      background: #444;
+      color: #fff;
+    }
+
+    header .header-buttons .demo {
+      background: #e63946;
+      color: #fff;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero-content h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .hero-content .learn-more {
+      background: #e63946;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Products */
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .products img {
+      width: 150px;
+      height: auto;
+    }
+
+    /* Product Buttons */
+    .product-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .product-buttons button {
+      background: #444;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .product-buttons button:hover {
+      background: #e63946;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">POWERGLIDE</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="header-buttons">
+      <button class="login">Login</button>
+      <button class="demo">Demo</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Motor Oil</h1>
+        <p>Unleash the power of your engine with premium motor oil.</p>
+        <button class="learn-more">Learn More</button>
+      </div>
+      <div class="products">
+        <img src="product1.jpg" alt="PowerGlide Bottle">
+        <img src="product2.jpg" alt="PowerGlide Bottle">
+      </div>
+    </section>
+
+    <section class="product-buttons">
+      <button>Learn More</button>
+      <button>Learn More</button>
+      <button>View More</button>
+    </section>
+  </main>
+
+  <script>
+    document.querySelector('.learn-more').addEventListener('click', () => {
+      alert('Learn more about PowerGlide Motor Oil!');
+    });
+  </script>
+</body>
+</html>

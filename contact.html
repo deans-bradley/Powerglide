@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - PowerGlide</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: url('resources/background5.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    /* Navbar Styles */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: url('resources/banner.jpg') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 6px solid;
+      border-image: linear-gradient(to right, #c0c0c0, #ffffff, #c0c0c0) 1;
+      background-blend-mode: overlay;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .slogan {
+      font-size: 16px;
+      font-weight: 500;
+      color: #e63946;
+      margin-top: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      animation: slideInFromLeft 2s ease-out;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #e63946;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+    }
+
+    /* Contact Section */
+    .contact-container {
+      background: rgba(0, 0, 0, 0.8); /* Transparent black background */
+      border-radius: 15px;
+      padding: 50px 30px;
+      margin: 150px auto;
+      max-width: 900px;
+      color: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 2s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .contact-title {
+      font-size: 36px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #e63946;
+      text-align: center;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .contact-details {
+      margin-bottom: 30px;
+    }
+
+    .contact-details p {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+
+    .contact-details h2 {
+      font-size: 20px;
+      color: #e63946;
+      margin-top: 20px;
+    }
+
+    .contact-form {
+      margin-top: 30px;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background: #e63946;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background: #c72c39;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+	/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 2px solid #e63946;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Instagram Button */
+.instagram-button img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.instagram-button img:hover {
+    transform: scale(1.1);
+}
+  </style>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<body>
+  <header>
+    <div class="logo-container">
+      <div class="logo">PowerGlide</div>
+      <div class="slogan">Good to the last drop</div>
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+	<div class="logo-container" style="display: flex; align-items: center;">
+      <img src="resources/logo.png" alt="PowerGlide Logo" style="width: 120px; height: auto;">
+    </div>
+  </header>
+
+  <div class="contact-container">
+    <h1 class="contact-title">Contact Us</h1>
+    <div class="contact-details">
+      <h2>Head Office</h2>
+      <p><strong>Tel:</strong> +27 31 7009131</p>
+      <p><strong>Fax:</strong> +27 31 7009138</p>
+      <p><strong>Email:</strong> kevin@powerglide.co.za</p>
+      <p><strong>Business Address:</strong> 2 Clubhouse Place, Mahogany Ridge, Westmead, Pinetown, Kwa-Zulu Natal</p>
+      <p><strong>Postal Address:</strong> PO Box 15305, Ashwood 3605, Kwa-Zulu Natal</p>
+
+      <h2>Gauteng Branch</h2>
+      <p><strong>Tel:</strong> +27 11 4620410</p>
+      <p><strong>Email:</strong> sales@powerglide.co.za</p>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.9311630343596!2d30.815308114865844!3d-29.81843038195121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef700bc5a4a9eb3%3A0x505cba72a1d7fabc!2s2%20Clubhouse%20Pl%2C%20Mahogany%20Ridge%2C%20Pinetown%2C%203607!5e0!3m2!1sen!2sza!4v1615875031033!5m2!1sen!2sza"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+
+    <div class="contact-form">
+      <form action="mailto:kevin@powerglide.co.za" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+	<footer>
+    <p>&copy; 1990 PowerGlide Motor Oils. All Rights Reserved.</p>
+    <a href="https://www.instagram.com/powerglideoils?igsh=Y21sdmtoNjFmdGg4" target="_blank" class="instagram-button">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+
+    </a>
+</footer>
+</body>
+</html>

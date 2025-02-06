@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerGlide - Home</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, red, yellow);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        header .logo img {
+            width: 70px;
+            height: auto;
+        }
+
+        header .logo h1 {
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: black;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            background: url('hero-bg.jpg') no-repeat center/cover;
+            color: white;
+            background-blend-mode: lighten;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+
+        /* Feature Section */
+        #features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            padding: 4rem 2rem;
+            background: #fff;
+        }
+
+        .feature-card {
+            background: #f9f9f9;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature-card img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: linear-gradient(90deg, red, yellow);
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="resources/logo.jpg" alt="PowerGlide Logo">
+            <h1>PowerGlide</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Your Engine's Best Friend</h2>
+        <p>PowerGlide offers premium motor oil solutions to keep your engines running smoothly and efficiently. Trusted by mechanics and car enthusiasts worldwide.</p>
+    </section>
+
+    <section id="features">
+        <div class="feature-card">
+            <img src="high-performance.png" alt="High Performance">
+            <h3>High Performance</h3>
+            <p>Our oils provide superior performance, ensuring long-lasting engine health.</p>
+        </div>
+        <div class="feature-card">
+            <img src="environment.png" alt="Eco Friendly">
+            <h3>Eco Friendly</h3>
+            <p>We focus on sustainability with eco-friendly production and packaging processes.</p>
+        </div>
+        <div class="feature-card">
+            <img src="reliability.png" alt="Reliability">
+            <h3>Reliability</h3>
+            <p>PowerGlide motor oils are engineered for reliability, even under the most extreme conditions.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PowerGlide Motor Oil. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
