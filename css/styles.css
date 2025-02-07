@@ -1,0 +1,112 @@
+/* Circular Buttons Section */
+.button-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    }
+
+    .circular-button-wrapper {
+    text-align: center;
+    }
+
+    .circular-button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #e63946;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .circular-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    }
+
+    /* Hover Spin Animation */
+    .circular-button:hover img {
+    animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    }
+
+    /* Click Animation */
+    .circular-button:active img {
+    animation: tireClick 0.3s ease;
+    }
+
+    @keyframes tireClick {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+    }
+
+    /* Entry Animations for Tires */
+    .circular-button.tire1 {
+    animation: rollInFromLeft 1s ease-out;
+    }
+
+    .circular-button.tire2 {
+    animation: bounceInFromTop 1s ease-out;
+    }
+
+    .circular-button.tire3 {
+    animation: rollInFromRight 1s ease-out;
+    }
+
+    @keyframes rollInFromLeft {
+    from {
+        transform: translateX(-150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+    }
+
+    @keyframes rollInFromRight {
+    from {
+        transform: translateX(150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+    }
+
+    @keyframes bounceInFromTop {
+    0% {
+        transform: translateY(-150%);
+    }
+    60% {
+        transform: translateY(20%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
