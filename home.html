@@ -6,6 +6,7 @@
   <meta name="description" content="PowerGlide offers premium motor oils designed to protect and enhance engine performance. Explore our products and promotions today!">
   <title>PowerGlide Website</title>
   <link rel="stylesheet" href="./css/pico.red.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <!--
   <style>
     /* General Reset */
@@ -196,32 +197,26 @@
     </article>
   </section>
 
-  <section class="container">
-    <div class="grid">
-      <div>
-        <a href="learn.html">
-          <figure>
-            <img src="resources/rim1.png" alt="Tire 1">
-            <figcaption>Learn More</figcaption>
-          </figure>
-        </a>
+  <section class="button-container">
+    <div class="circular-button-wrapper">
+      <div class="circular-button tire1" onclick="window.location.href='learn.html';">
+        <img src="resources/rim1.png" alt="Tire 1">
       </div>
-      <div>
-        <a href="https://wa.me/27825583913?text=Hello%20Power%20Glide%20Team" target="_blank">
-          <figure>
-            <img src="resources/rim1.png" alt="Tire 2">
-            <figcaption>Chat with us</figcaption>
-          </figure>
-        </a>
+      <div class="button-label">Learn More</div>
+    </div>
+    <div class="circular-button-wrapper">
+      <a href="https://wa.me/27825583913?text=Hello%20Power%20Glide%20Team" target="_blank">
+        <div class="circular-button tire2">
+          <img src="resources/rim1.png" alt="Tire 2">
+        </div>
+      </a>
+      <div class="button-label">Chat with us</div>
+    </div>
+    <div class="circular-button-wrapper">
+      <div class="circular-button tire3" onclick="window.location.href='noPromo.html';">
+        <img src="resources/rim1.png" alt="Tire 3">
       </div>
-      <div>
-        <a href="noPromo.html">
-          <figure>
-            <img src="resources/rim1.png" alt="Tire 3">
-            <figcaption>Promotions</figcaption>
-          </figure>
-        </a>
-      </div>
+      <div class="button-label">Promotions</div>
     </div>
   </section>
 </body>
