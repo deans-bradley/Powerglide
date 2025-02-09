@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="PowerGlide offers premium motor oils designed to protect and enhance engine performance. Explore our products and promotions today!">
-  <title>PowerGlide Website</title>
+  <title>PowerGlide Products</title>
   <link rel="stylesheet" href="./css/pico.red.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -14,11 +14,18 @@
       <ul class="navbar-brand">
         <li><strong>POWERGLIDE</strong></li>
       </ul>
-      <ul>
+  
+      <button id="menu-toggle" class="hamburger" onclick="menuClick()" aria-label="Toggle menu">
+        ☰
+      </button>
+  
+      <ul id="nav-menu" class="nav-links">
+        <li><a href="./index.html" class="contrast">Home</a></li>
         <li><a href="./about.html" class="contrast">About</a></li>
         <li><a href="./products.html" class="contrast">Products</a></li>
         <li><a href="./contact.html" class="contrast">Contact</a></li>
       </ul>
+  
       <ul class="navbar-logo">
         <li>
           <a href="./index.html" class="contrast">
@@ -49,11 +56,11 @@
   <button id="back-to-top" class="back-to-top" title="Go to top">↑</button>
   <script src="./js/script.js"></script>
 
-  <footer>
-      <p>&copy; 1990 PowerGlide Motor Oils. All Rights Reserved.</p>
-      <a href="https://www.instagram.com/powerglideoils?igsh=Y21sdmtoNjFmdGg4" target="_blank" class="instagram-button">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="20px" alt="Instagram">
-      </a>
+  <footer class="container">
+    <p>&copy; 1990 PowerGlide Motor Oils. All Rights Reserved.</p>
+    <a href="https://www.instagram.com/powerglideoils?igsh=Y21sdmtoNjFmdGg4" target="_blank" class="instagram-button">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="20px" alt="Instagram">
+    </a>
   </footer>
 </body>
 </html>

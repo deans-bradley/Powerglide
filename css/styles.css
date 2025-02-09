@@ -5,9 +5,18 @@
 }
 
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: #181c25;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
     border-radius: 5px;
+}
+  
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
 }
 
 .navbar-brand {
@@ -16,6 +25,42 @@
 
 .navbar-logo {
     padding-right: 20px;
+}
+
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+  
+@media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background: #181c25;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    /* Hide the logo on mobile */
+    .navbar-logo {
+      display: none;
+    }
 }
 
 .article {
@@ -250,4 +295,24 @@
         width: 70px; /* Further reduce size for small screens */
         height: 70px;
     }
+}
+
+.promo-banner {
+    background: #e63946;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.promo-image {
+    max-width: 80%;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
