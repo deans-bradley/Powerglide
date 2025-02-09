@@ -37,21 +37,8 @@
     </div>
 
     <!-- Category Filter -->
-    <select name="select" aria-label="Select" required onchange="filterProducts(this.value)">
+    <select id="category-dropdown" name="select" aria-label="Select" required onchange="filterProducts(this.value)">
       <option selected disabled value="">Filter</option>
-      <option value="POWER PLUS TURBO">POWER PLUS TURBO</option>
-      <option value="RACING MOTOR OIL">RACING MOTOR OIL</option>
-      <option value="X-TREME RS 7000 SYNTHETIC">X-TREME RS 7000 SYNTHETIC</option>
-      <option value="SUPER CLASSIC">SUPER CLASSIC</option>
-      <option value="GEAR OILS">GEAR OILS</option>
-      <option value="TRANSMISSION FLUID">TRANSMISSION FLUID</option>
-      <option value="CVT FLUID">CVT FLUID</option>
-      <option value="TRACTOR OILS / CHAIN SAW OIL">TRACTOR OILS / CHAIN SAW OIL</option>
-      <option value="HYDRAULIC FLUID">HYDRAULIC FLUID</option>
-      <option value="BRAKE FLUID">BRAKE FLUID</option>
-      <option value="ENGINE CLEANER">ENGINE CLEANERS</option>
-      <option value="ANTI-FREEZE">ANTI-FREEZE</option>
-      <option value="">Show All</option>
     </select>
   </select>
 
@@ -59,7 +46,7 @@
   </section>
 
   <!-- Back to Top Button -->
-  <button id="back-to-top" title="Go to top">↑</button>
+  <button id="back-to-top" class="back-to-top" title="Go to top">↑</button>
   <script src="./js/script.js"></script>
 
   <footer>

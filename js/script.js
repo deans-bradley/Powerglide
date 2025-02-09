@@ -9,6 +9,7 @@ async function loadProducts() {
         products.forEach(product => { 
             const article = document.createElement("article");
             article.classList.add("grid-item");
+            article.setAttribute("data-category", product.category);
         
             article.innerHTML = `
                 <img src="./resources/${product.image}" alt="${product.name}" width="200">
@@ -27,12 +28,39 @@ async function loadProducts() {
     }
 }
 
+async function loadCategories() {
+    try {
+        const response = await fetch("../data.json");
+        const data = await response.json();
+        const products = data.products;
+
+        const uniqueCategories = [...new Set(products.map(product => product.category))];
+        const categoryDropdown = document.getElementById("category-dropdown");
+
+        const defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = "All Categories";
+        categoryDropdown.appendChild(defaultOption);
+
+        uniqueCategories.forEach(category => {
+            const option = document.createElement("option");
+            option.value = category;
+            option.textContent = category;
+            categoryDropdown.appendChild(option);
+        });
+
+    } catch (error) {
+        console.error("Error loading categories:", error);
+    }
+}
+
+loadCategories();
 loadProducts();
 
 // Filter products by category
 function filterProducts(category) {
     // Select all product cards
-    var products = document.querySelectorAll('.product-card');
+    var products = document.querySelectorAll('.grid-item');
 
     // Loop through each product and check its category
     products.forEach(function(product) {
@@ -53,6 +81,7 @@ window.onscroll = function() {
         document.getElementById("back-to-top").style.display = "none";
     }
 };
+
 document.getElementById("back-to-top").onclick = function() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
