@@ -1,0 +1,351 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "POWER PLUS HD 40",
+            "category": "Power Plus Turbo",
+            "image": "product1.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "High performance, series 3 heavy duty mono-grade diesel engine oil formulated from SABS approved virgin base stocks & the best available additives, using the latest available technology to lubricate a wide range of diesel, turbocharged & normally aspirated, as well as petrol engines requiring the performance levels: API CG-4, CF-4, CF, API SG.",
+            "recommendations": [
+                "High Performance Diesel & Petrol Engines",
+                "Meets requirements for most major OEM Performance Standards",
+                "All types of vehicles requiring these performance levels",
+                "Automotive & Heavy Plant Machinery"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "MULTIFLEET ADVANCE 15w40",
+            "category": "Power Plus Turbo",
+            "image": "product2.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "High performance, series 3 heavy duty mono-grade diesel engine oil formulated from SABS approved virgin base stocks & the best available additives, using the latest available technology to lubricate a wide range of diesel, turbocharged & normally aspirated, as well as petrol engines requiring the performance levels: API CG-4, CF-4, CF, API SG.",
+            "recommendations": [
+                "High Performance Diesel & Petrol Engines",
+                "Meets requirements for most major OEM Performance Standards",
+                "All types of vehicles requiring these performance levels",
+                "Automotive & Heavy Plant Machinery"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "ALL FLEET 10w40",
+            "category": "Power Plus Turbo",
+            "image": "product3.jpg",
+            "available_volumes": ["5L", "20L", "210L", "1000L"],
+            "description": "Superior quality, semi-synthetic, high performance, multi-grade engine oil formulated from approved high quality virgin base stocks & the best available additives, using the latest available technology to lubricate a wide range of turbocharged & normally aspirated diesel & petrol engines requiring the performance levels: API CI-4+ API SN, SM.",
+            "recommendations": [
+                "High Performance Diesel & Petrol Engines",
+                "Meets requirements for most major OEM Performance Standards",
+                "All types of vehicles requiring these performance levels",
+                "Automotive & Heavy Plant Machinery"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "FORMULA RS Plus – 10w60",
+            "category": "Racing Motor Oil",
+            "image": "product4.jpg",
+            "available_volumes": ["1L", "5L", "20L", "210L", "1000L"],
+            "description": "FORMULA RS Plus Formula RS Plus is a 100% synthetic engine oil based on Polyalphaolefin & Alkylated Naphthalene technology and contains a robust additive system, formulated especially for extremely high-performance engines using special high-octane fuel mixtures. The 10W60 viscosity grade, with a higher than average viscosity index ensures improved performance and high wear protection due to the base oils.",
+            "recommendations": [
+                "Maximise performance",
+                "Maintain oil pressure",
+                "Minimise fuel dilution",
+                "Reduce friction & wear"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "X-TREME 10w40 DIESEL",
+            "category": "X-Treme RS 7000 Synthetic",
+            "image": "product5.jpg",
+            "available_volumes": ["1L", "5L", "20L", "210L", "1000L"],
+            "description": "Extreme quality with extra high performance, multi-grade engine oil formulated from synthetic base stocks & the best additives available, using the latest available technology to lubricate a wide range of turbocharged & normally aspirated European, Asian and American Diesel & petrol engines requiring high output & low emission performance as well as providing extended drain intervals. Blended to meet OEM performance levels: API CI-4+, SN ACEA A3/B4.",
+            "recommendations": [
+                "High output, low emission performance engines",
+                "All types of vehicles requiring these performance levels",
+                "Meets requirements for most major OEM Performance Standards",
+                "Automotive & Plant Machinery"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "X-TREME 5w30",
+            "category": "X-Treme RS 7000 Synthetic",
+            "image": "product6.jpg",
+            "available_volumes": ["1L", "5L", "20L", "210L", "1000L"],
+            "description": "Extreme quality with extra high performance, multi-grade engine oil formulated from synthetic base stocks & the best additives available, using the latest available technology to lubricate a wide range of turbocharged & normally aspirated European, Asian and American Diesel & petrol engines requiring high output & low emission performance as well as providing extended drain intervals. Blended to meet OEM performance levels: API CI-4+, SN ACEA A3/B4.",
+            "recommendations": [
+                "High output, low emission performance engines",
+                "All types of vehicles requiring these performance levels",
+                "Meets requirements for most major OEM Performance Standards",
+                "Automotive & Plant Machinery"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "X-TREME 5w40",
+            "category": "X-Treme RS 7000 Synthetic",
+            "image": "product7.jpg",
+            "available_volumes": ["1L", "5L", "20L", "210L", "1000L"],
+            "description": "Extreme quality with extra high performance, multi-grade engine oil formulated from synthetic base stocks & the best additives available, using the latest available technology to lubricate a wide range of turbocharged & normally aspirated European, Asian and American Diesel & petrol engines requiring high output & low emission performance as well as providing extended drain intervals. Blended to meet OEM performance levels: API CI-4+, SN ACEA A3/B4.",
+            "recommendations": [
+                "High output, low emission performance engines",
+                "All types of vehicles requiring these performance levels",
+                "Meets requirements for most major OEM Performance Standards",
+                "Automotive & Plant Machinery"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "SAE 40",
+            "category": "Super Classic",
+            "image": "product8.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "Performance mono grade engine oil formulated from SABS approved virgin base stocks & the best available additives, using the latest available technology to lubricate a wide range of petrol & normally aspirated diesel engines powering passenger cars, light trucks & stationary equipment requiring the performance levels: API SG, SF CF, CD.",
+            "recommendations": [
+                "Light petrol & diesel engines",
+                "All types of vehicles requiring these performance levels",
+                "Meets requirements for most major OEM Performance Standards",
+                "Automotive & Plant Machinery"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "SAE 30",
+            "category": "Super Classic",
+            "image": "product9.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "Performance mono grade engine oil formulated from SABS approved virgin base stocks & the best available additives, using the latest available technology to lubricate a wide range of petrol & normally aspirated diesel engines powering passenger cars, light trucks & stationary equipment requiring the performance levels: API SG, SF CF, CD.",
+            "recommendations": [
+                "Light petrol & diesel engines",
+                "All types of vehicles requiring these performance levels",
+                "Meets requirements for most major OEM Performance Standards",
+                "Automotive & Plant Machinery"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "HIGH MILEAGE 20w50",
+            "category": "Super Classic",
+            "image": "product10.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "Performance mono grade engine oil formulated from SABS approved virgin base stocks & the best available additives, using the latest available technology to lubricate a wide range of petrol & normally aspirated diesel engines powering passenger cars, light trucks & stationary equipment requiring the performance levels: API SG, SF CF, CD.",
+            "recommendations": [
+                "Light petrol & diesel engines",
+                "All types of vehicles requiring these performance levels",
+                "Meets requirements for most major OEM Performance Standards",
+                "Automotive & Plant Machinery"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "EP 90",
+            "category": "Gear Oils",
+            "image": "product11.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "Premium performance, multipurpose EP gear lubricant for transmissions, differentials, transaxles, steering gears and other auxiliary gearboxes requiring the performance standards. • API GL -4 • MIL-L-2105 It is not recommended for use in Hypoid or LSD axles or differentials where API GL-5 performance is required.",
+            "recommendations": [
+                "Some types of Industrial Equipment.",
+                "Meet most manufacturer’s recommendations for, American, European & Asian vehicles: (Audi, BMW, Chrysler, Daihatsu, Dodge/Jeep, Ford, GM, Honda, Hyundai, Kia, Mazda, Mercedes, Nissan, Mini, Mitsubishi, Nissan, Subaru, Suzuki, Toyota, Volvo, VW, Others)."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "EP 75w90",
+            "category": "Gear Oils",
+            "image": "product12.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "High performance, semi-synthetic, high shear stability manual transmission fluid designed for front wheel drive transaxle gear boxes and other manual transmissions; steering boxes and automotive hypoid and spiral bevel axles operating under moderate loads where manufacturers call for a 75w90, • API GL-4 • MIL-L-2105A It is not recommended for use in Hypoid or LSD axles or differentials where API GL-5 performance is required.",
+            "recommendations": [
+                "Some types of Industrial Equipment.",
+                "Meet most manufacturer’s recommendations for, American, European & Asian vehicles: (Audi, BMW, Chrysler, Daihatsu, Dodge/Jeep, Ford, GM, Honda, Hyundai, Kia, Mazda, Mercedes, Nissan, Mini, Mitsubishi, Nissan, Subaru, Suzuki, Toyota, Volvo, VW, Others)."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "EP 80w90",
+            "category": "Gear Oils",
+            "image": "product13.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "High performance, multipurpose thermally stable EP automotive gear lubricant for manual transmissions, hypoid gear differentials, transaxles, steering gears and other auxiliary gearboxes requiring the performance standards. API GL-5, GL-4 -MIL-PRF-2105E.",
+            "recommendations": [
+                "Some types of Industrial Equipment.",
+                "Meet most manufacturer’s recommendations for, American, European & Asian vehicles: (Audi, BMW, Chrysler, Daihatsu, Dodge/Jeep, Ford, GM, Honda, Hyundai, Kia, Mazda, Mercedes, Nissan, Mini, Mitsubishi, Nissan, Subaru, Suzuki, Toyota, Volvo, VW, Others)."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "EP 85w140",
+            "category": "Gear Oils",
+            "image": "product14.jpg",
+            "available_volumes": ["500ml", "1L", "5L", "20L", "210L", "1000L"],
+            "description": "High performance, multipurpose thermally stable EP automotive gear lubricant for manual transmissions, hypoid gear differentials, transaxles, steering gears and other auxiliary gearboxes requiring the performance standards. API GL-5, GL-4 -MIL-PRF-2105E.",
+            "recommendations": [
+                "Some types of Industrial Equipment.",
+                "Meet most manufacturer’s recommendations for, American, European & Asian vehicles.",
+                "Heavy Duty & Commercial Vehicles."
+            ]
+        },
+        {
+            "id": 15,
+            "name": "ATF DEXRON 2",
+            "category": "Transmission Fluid",
+            "image": "product15.jpg",
+            "available_volumes": ["500ml", "5L", "20L", "210L", "1000L"],
+            "description": "AUTOMATIC TRANSMISSION FLUID A special purpose heavy duty transmission fluid designed for specific automatic & power shift transmissions, power steering system applications and also used as a wide-temperature range anti-wear hydraulic fluid for many mobile, industrial & marine applications.",
+            "recommendations": [
+                "Recommended for all, American, European, Asian, vehicle transmissions for which DEXRON 2 (DX -11)."
+            ]
+        },
+        {
+            "id": 16,
+            "name": "TRANSMATIC ATF Semi - Synthetic DEXRON 3",
+            "category": "Transmission Fluid",
+            "image": "product16.jpg",
+            "available_volumes": ["500ml", "5L", "20L", "210L", "1000L"],
+            "description": "AUTOMATIC TRANSMISSION FLUID A special purpose heavy duty transmission fluid designed for specific automatic & power shift transmissions, power steering system applications and also used as a wide-temperature range anti-wear hydraulic fluid for many mobile, industrial & marine applications.",
+            "recommendations": [
+                "Recommended for all vehicle types for which DEXRON 3 (DX -111) is specified."
+            ]
+        },
+        {
+            "id": 17,
+            "name": "CVT Fluid",
+            "category": "CVT Fluid",
+            "image": "product17.jpg",
+            "available_volumes": ["1L", "5L", "20L", "210L"],
+            "description": "CVT Fluid Power Glide CVT is a premium multi-vehicle transmission fluid designed for vehicles with a CVT (Continuous Variable Transmission) gearbox, providing maximum anti-wear protection and temperature protection of most belt and chain-driven transmissions over a wide temperature range. Continuously variable transmissions (CVTs) create unlimited gear ratios using a belt or chain running between two variable diameter pulleys that requires a unique transmission fluid with specialized frictional characteristics designed to ensure the belt or chain remains in contact with the pulleys without slipping, providing outstanding metal-to-metal frictional properties and excellent protection and performance.",
+            "recommendations": [
+                "Power Glide CVT is a cost-effective, high-performance alternative to most OEM CVT Specifications for vehicle manufacturer fluids, suitable for,  American  European  Asian, passenger cars and light commercial vehicles. CVT Fluid should be changed according to your vehicle manufacturer’s recommendations. Audi, BMW, Chrysler, Daihatsu, Dodge/Jeep, Ford, GM, Honda, Hyundai, Kia, Mazda, Mercedes Benz, Nissan, Mini Cooper, Mitsubishi, Nissan, Subaru, Suzuki, Toyota / Lexus, Volvo, VW."
+            ]
+        },
+        {
+            "id": 18,
+            "name": "STOU 15W40 SUPER TRACTOR OIL UNIVERSAL",
+            "category": "Tractor/Chain Saw Oil",
+            "image": "product18.jpg",
+            "available_volumes": ["5L", "20L", "210L", "1000L"],
+            "description": "STOU 15w40 SUPER TRACTOR OIL UNIVERSAL High performance, shear stable, multi-functional super tractor oil universal fluid designed for use in tractor crankcases, transmissions, final drives & hydraulic systems where tractor manufacturers specify the use of a STOU type product meeting the performance levels  API CH-4, CG-4  GL-4 Also, can be used on mobile hydraulic systems, PTO clutches, wet brakes, as well as mobile or stationary diesel engines.",
+            "recommendations": [
+                "Tractor diesel engines",
+                "Tractor transmissions",
+                "Tractor hydraulic systems",
+                "Various other farm equipment"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "POWER TRACT TDH - (UTTO)",
+            "category": "Tractor/Chain Saw Oil",
+            "image": "product19.jpg",
+            "available_volumes": ["5L", "20L", "210L", "1000L"],
+            "description": "POWER TRACT TDH - (UTTO) A premium multipurpose, gear oil viscosity SAE 80W with an approximate motor oil viscosity SAE 10W30 fluid designed for year-round service in tractor hydraulic systems, transmissions, and differentials with wet brake systems. The product is not designed for use as an engine lubricant. This product provides protection against wear and corrosion of tractor components and has excellent friction properties. This product blend meets most OEM performance level requirements.  API GL-4  Allison C3, C4, Caterpillar TO-2, Ford, New Holland, John Deere, Case, Massey Ferguson.",
+            "recommendations": [
+                "This product is for universal tractor lubrication; gearbox, differential, hydraulic system and wet brakes, Not for the engine.",
+                "The products’ friction properties are adjusted to the use in differentials with wet brakes.",
+                "Earthmoving machines and Forklifts of the latest generation now use this product for their differentials with wet brakes.",
+                "The product is also suitable for use in various implements for agricultural equipment’s with hydraulic activation.",
+                "Always check if the oil of the implements can be mixed with the oil of the tractor before use."
+            ]
+        },
+        {
+            "id": 20,
+            "name": "CHAINSAW OIL",
+            "category": "Tractor/Chain Saw Oil",
+            "image": "product20.jpg",
+            "available_volumes": ["1L", "5L", "20L", "210L", "1000L"],
+            "description": "CHAINSAW OIL CUTTER BAR LUBE Virgin base, anti-wear lubricant designed for, the chains, the cutter bars, sprockets of power operated chainsaws in commercial and recreational services, motorcycle chains, industrial chain drives.",
+            "recommendations": [
+                "Maximises the working life of equipment by having a special EP and High film strength oiliness additive that withstands shock loads under boundary lubrication conditions & protects components against wear. It has an effective tackiness additive that resists oil fling off’s as well as a pitch dissolving capability that prevents the accumulation of sticky pitch deposits on working surfaces thus keeping the saw clean."
+            ]
+        },
+        {
+            "id": 21,
+            "name": "HYD 68",
+            "category": "Hydraulic Fluid",
+            "image": "product21.jpg",
+            "available_volumes": ["1L", "5L", "20L", "210L", "1000L"],
+            "description": "HYD 68 HYDRAULIC OIL High quality, anti-wear hydraulic fluid, designed for use in various mobile and stationary high pressure hydraulic systems requiring the performance standards: Denison Hydraulics HF-0 ISO Standard 6743 part 4, HR DIN 51524 part 2, HLP SABS 9218 approval AAMA Standard 524 part 2.",
+            "recommendations": [
+                "Industrial circulating & hydraulic systems.",
+                "Hydraulic systems with piston, vane or gear pumps.",
+                "Construction equipment.",
+                "Plastic Injection moulding machines.",
+                "Machine tools.",
+                "Enclosed gear systems.",
+                "Certain automotive applications."
+            ]
+        },
+        {
+            "id": 22,
+            "name": "HYDRAULIC BRAKE & CLUTCH FLUID",
+            "category": "Brake Fluid",
+            "image": "product22.jpg",
+            "available_volumes": ["200ml", "500ml", "5L", "20L", "210L", "1000L"],
+            "description": "HYDRAULIC BRAKE & CLUTCH FLUID Premium, non –petroleum automotive brake fluid, designed for a wide range of conventional hydraulic brake & clutch systems in passenger cars, commercial on & off-road vehicles, agricultural equipment & motorcycles. Meets the performance standards of SANS 1905, ISO 4925, FMVSS 116 Dot 3, Dot 4 & SABS SAE J1703 specifications. Equilibrium reflux boiling point, 250 °C Wet equilibrium reflux boiling point, 160 °C Always change your brake fluid in accordance with the vehicle manufacturer’s recommendations.",
+            "recommendations": [
+                "Keep product clean & stored away from dirt of any foreign materials to prevent contamination or absorption of moisture, preventing brake or clutch failure.",
+                "KEEP OUT OF REACH OF CHILDREN – NOT suitable for internal use or ingestion, in case of ingestion seek medical attention – in case of skin & eye contact, flush or rinse with running water & seek medical attention – always wear PPE when handling & use in well ventilated areas. This product is strictly NOT for human consumption."
+            ]
+        },
+        {
+            "id": 23,
+            "name": "ENGINE CLEANER DEGREASER",
+            "category": "Engine Cleaner",
+            "image": "product23.jpg",
+            "available_volumes": ["500ml", "5L", "20L", "210L", "1000L"],
+            "description": "ENGINE CLEANER DEGREASER Solvent base general purpose emulsion degreaser, used in a wide range of cleaning applications to remove surfaces soiled with, grease, oil, soft carbon and bitumastic materials.",
+            "recommendations": [
+                "Spray on degreaser.",
+                "Allow degreaser to stand for approximately 5 – 10 minutes, depending on application.",
+                "Use a brush if necessary.",
+                "Rinse off with clean water or high-pressure spray."
+            ]
+        },
+        {
+            "id": 24,
+            "name": "ANTIFREEZE 33",
+            "category": "Anti-Freeze",
+            "image": "product24.jpg",
+            "available_volumes": ["500ml", "5L", "20L", "210L", "1000L"],
+            "description": "ANTIFREEZE 33 QUALITY PROTECTION MEG (Mono Ethylene Glycol) based product. Pe-diluted with special corrosion inhibitors. Used in cooling systems for automotive and industrial equipment’s at the manufactures recommendations.",
+            "recommendations": [
+                "Protection against corrosion.",
+                "Prevents water from freezing.",
+                "Prolongs engine life.",
+                "Quality protection."
+            ]
+        },
+        {
+            "id": 25,
+            "name": "ANTIFREEZE 50/50",
+            "category": "Anti-Freeze",
+            "image": "product25.jpg",
+            "available_volumes": ["500ml", "5L", "20L", "210L", "1000L"],
+            "description": "ANTIFREEZE 50/50 EXTENDED LIFE PROTECTION MEG (Mono Ethylene Glycol) based product. Pe-diluted with special corrosion inhibitors. Used in cooling systems for automotive and industrial equipment’s at the manufactures recommendations.",
+            "recommendations": [
+                "Protection against corrosion.",
+                "Prevents water from freezing.",
+                "Delivers extended engine life protection.",
+                "Product is ready to use, no water to be added."
+            ]
+        },
+        {
+            "id": 26,
+            "name": "SUPREME ANTIFREEZE 95",
+            "category": "Anti-Freeze",
+            "image": "product26.jpg",
+            "available_volumes": ["500ml", "5L", "20L", "210L", "1000L"],
+            "description": "SUPREME ANTIFREEZE 95 MEG (Mono Ethylene Glycol) based product, blended with special corrosion inhibitors. Used in cooling systems for automotive and industrial equipment’s at the manufactures recommendations.",
+            "recommendations": [
+                "Protection against corrosion.",
+                "Prevents water from freezing.",
+                "Delivers extended engine life protection.",
+                "Pure protection."
+            ]
+        }
+    ]
+}

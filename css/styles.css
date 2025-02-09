@@ -1,0 +1,318 @@
+.background-image {
+    background: url('../resources/background5.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #181c25;
+    padding: 1rem;
+    border-radius: 5px;
+}
+  
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.navbar-logo {
+    padding-right: 20px;
+}
+
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+  
+@media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background: #181c25;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    /* Hide the logo on mobile */
+    .navbar-logo {
+      display: none;
+    }
+}
+
+.article {
+    background-color: rgba(24, 28, 37, 0.8); 
+}
+
+/* Circular Buttons Section */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.circular-button-wrapper {
+    text-align: center;
+}
+
+/* Default Button Size */
+.circular-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #e63946;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circular-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Spin Animation */
+.circular-button:hover img {
+    animation: spin 1s linear infinite;
+}
+
+/* Click Animation */
+.circular-button:active img {
+    animation: tireClick 0.3s ease;
+}
+
+/* Entry Animations for Tires */
+.circular-button.tire1 {
+    animation: rollInFromLeft 1s ease-out;
+}
+
+.circular-button.tire2 {
+    animation: bounceInFromTop 1s ease-out;
+}
+
+.circular-button.tire3 {
+    animation: rollInFromRight 1s ease-out;
+}
+
+/* Keyframes */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes tireClick {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rollInFromLeft {
+    from {
+        transform: translateX(-150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rollInFromRight {
+    from {
+        transform: translateX(150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceInFromTop {
+    0% {
+        transform: translateY(-150%);
+    }
+    60% {
+        transform: translateY(20%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#product-list {
+    --grid-spacing: 1rem;
+    --grid-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--grid-spacing);
+    padding: 1rem;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 100%; 
+}
+
+.grid-item img  {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.grid-item a {
+    margin-top: auto; 
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20%;
+    cursor: pointer;
+    display: none;
+}
+
+.back-to-top:hover {
+    background: #fff;
+    color: #e63946;
+}
+
+.product-details-header {
+    text-align: center;
+}
+
+.product-details {
+    background-color: rgba(24, 28, 37, 0.8);
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 100%; 
+}
+
+.product-details h2 {
+    margin-top: 20px;
+}
+
+.product-details img  {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.product-details button {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow wrapping */
+        gap: 15px;
+        bottom: 10px;
+    }
+
+    .circular-button {
+        width: 80px; /* Reduce button size */
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-details {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .button-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .circular-button {
+        width: 70px; /* Further reduce size for small screens */
+        height: 70px;
+    }
+}
+
+.promo-banner {
+    background: #e63946;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.promo-image {
+    max-width: 80%;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}

@@ -3,144 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PowerGlide Promotions</title>
-  <style>
-    /* General Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: url('resources/background5.jpeg') no-repeat center center fixed;
-      background-size: cover;
-      height: 100vh;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding: 20px;
-    }
-
-    /* Close Button */
-    .close-button {
-      background: #e63946;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      transition: all 0.3s ease;
-    }
-
-    .close-button:hover {
-      background: #fff;
-      color: #e63946;
-    }
-
-    /* Content Container */
-    .promo-container {
-      background: rgba(0, 0, 0, 0.7); /* Transparent background */
-      border-radius: 15px;
-      padding: 40px 20px;
-      max-width: 800px;
-      width: 100%;
-      color: #fff;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
-
-    h1 {
-      font-size: 48px;
-      font-weight: bold;
-      text-transform: uppercase;
-      color: #e63946;
-    }
-
-    h2 {
-      font-size: 36px;
-      color: #fff;
-      margin-top: 20px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-      color: #fff;
-      margin-top: 20px;
-    }
-
-    /* Promotions Banner */
-    .promo-banner {
-      background: #e63946;
-      color: #fff;
-      padding: 20px;
-      font-size: 24px;
-      text-transform: uppercase;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      margin-top: 20px;
-      font-weight: bold;
-    }
-
-    /* Promotions Image */
-    .promo-image {
-      max-width: 80%;
-      height: auto;
-      margin-top: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
-
-    /* Button */
-    .promo-button {
-      background: #e63946;
-      color: #fff;
-      border: none;
-      padding: 15px 30px;
-      font-size: 16px;
-      border-radius: 5px;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      margin-top: 20px;
-    }
-
-    .promo-button:hover {
-      background: #fff;
-      color: #e63946;
-    }
-  </style>
+  <meta name="description" content="PowerGlide offers premium motor oils designed to protect and enhance engine performance. Explore our products and promotions today!">
+  <title>PowerGlide Promo</title>
+  <link rel="stylesheet" href="./css/pico.red.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-  <button class="close-button" onclick="window.history.back();">Close</button>
+<body class="background-image">
+  <header class="container">
+    <nav class="navbar">
+      <ul class="navbar-brand">
+        <li><strong>POWERGLIDE</strong></li>
+      </ul>
+  
+      <button id="menu-toggle" class="hamburger" onclick="menuClick()" aria-label="Toggle menu">
+        ☰
+      </button>
+  
+      <ul id="nav-menu" class="nav-links">
+        <li><a href="./index.html" class="contrast">Home</a></li>
+        <li><a href="./about.html" class="contrast">About</a></li>
+        <li><a href="./products.html" class="contrast">Products</a></li>
+        <li><a href="./contact.html" class="contrast">Contact</a></li>
+      </ul>
+  
+      <ul class="navbar-logo">
+        <li>
+          <a href="./index.html" class="contrast">
+            <img src="resources/logo.png" alt="PowerGlide Logo" width="100">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="promo-container">
-    <h1>PowerGlide Promotions</h1>
-    <h2>Exclusive Offer Just for You!</h2>
-    <p>
-      We are thrilled to announce our latest promotion! Enjoy discounts on our premium PowerGlide motor oils, specially crafted for maximum engine performance.
-    </p>
-
-    <!-- Promotion Banner -->
-    <div class="promo-banner">
-      Limited Time Offer: Get 20% Off on All Products!
-    </div>
-
-    <img src="resources/promo.jpg" alt="Promotions" class="promo-image">
-
-    <p>
-      Don't miss out! Take advantage of this offer and experience the PowerGlide difference. Hurry, the promotion ends soon!
-    </p>
-
-    <button class="promo-button" onclick="window.location.href='https://wa.me/27825583913'">Claim Your Offer</button>
-  </div>
+  <section class="container">
+    <article class="article">
+      <h1>PowerGlide Promotions</h1>
+      <h2>Exclusive Offer Just for You!</h2>
+      <p>
+        We are thrilled to announce our latest promotion! Enjoy discounts on our premium PowerGlide motor oils, specially crafted for maximum engine performance.
+      </p>
+  
+      <!-- Promotion Banner -->
+      <div class="promo-banner">
+        Limited Time Offer: Get 20% Off on All Products!
+      </div>
+  
+      <img src="resources/promo.jpg" alt="Promotions" class="promo-image">
+  
+      <p>
+        Don't miss out! Take advantage of this offer and experience the PowerGlide difference. Hurry, the promotion ends soon!
+      </p>
+  
+      <button class="promo-button" onclick="window.location.href='https://wa.me/27825583913'">Claim Your Offer</button>
+    </article>
+  </section>
+  <script src="./js/script.js"></script>
+  <footer class="container">
+    <p>&copy; 1990 PowerGlide Motor Oils. All Rights Reserved.</p>
+    <a href="https://www.instagram.com/powerglideoils?igsh=Y21sdmtoNjFmdGg4" target="_blank" class="instagram-button">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="20px" alt="Instagram">
+    </a>
+  </footer>
 </body>
 </html>
